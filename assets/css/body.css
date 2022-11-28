@@ -1,0 +1,23 @@
+
+
+
+
+.youtube-link {
+  text-decoration: none;
+  color: orange;
+}
+
+.youtube-link:hover {
+  color: #8B4000;
+  transition: color 1s;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: orange;
+}
+
+.footer-link:hover {
+  color : #8B4000;
+  transition: color 1s
+}

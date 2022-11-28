@@ -1,0 +1,12 @@
+.dropdown-toggle::after {
+  display: none;
+}
+
+.navibar {
+  height: 100px;
+  padding: 0 40px;
+}
+
+.navibar a {
+  padding: 0 25px;
+}
