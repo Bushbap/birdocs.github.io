@@ -10,25 +10,41 @@
 
     <link rel="stylesheet" href="assets/css/navi.css">
     <link rel="stylesheet" href="assets/css/body.css">
-  </head>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/a0d1e1bf03.js" crossorigin="anonymous"></script>
+      </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navibar">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
+    <nav class="navbar navbar-expand-lg navibar px-5 py-4">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="https://www.facebook.com/Birdocs">
+    <i class="fa-brands fa-facebook fa-lg"></i>
     </a>
-    <a class="navbar-brand" href="index.html">Birdocs</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="https://www.instagram.com/eugenesbirdocs/">
+    <i class="fa-brands fa-instagram fa-lg"></i>
+    </a>
+    <a class="navbar-brand" href="https://www.youtube.com/c/birdocs"><i class="fa-brands fa-youtube fa-lg"></i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hamburger" aria-controls="hamburger" aria-expanded="false" aria-label="Toggle navigation" data-bs-auto-close="true">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="hamburger">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="true">
             Blogs
           </a>
           <ul class="dropdown-menu">
@@ -43,39 +59,38 @@
           <a class="nav-link" href="gallery.html">Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="checklist.html">Checklists</a>
+          <a class="nav-link" href="checklist.html">Checklists</a>
         </li>
       </ul>
     </div>
-  </div>
-</nav>
-<!-- body content -->
-<div class="container">
-<div class="row py-5">
+    </div>
+    </nav><!-- body content -->
+<div class="container py-5">
+<div class="row">
       <div class="col-lg-3">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <img src="assets/images/checklist/magoebaskloof.jpeg" class="rounded-circle" width="140" height="140" />
 
         <h2 class="fw-normal">Magoebaskloof</h2>
         <p>This checklist consits of all recorded birds found in Magoebaskloof, South Africa.</p>
         <p><a class="btn btn-secondary" href="#">View checklist »</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-3">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <img src="assets/images/checklist/lusaka.jpeg" class="rounded-circle" width="140" height="140" />
 
         <h2 class="fw-normal">Lusaka</h2>
         <p>This checklist consits of all recorded birds found in Lusaka, Zambia.</p>
         <p><a class="btn btn-secondary" href="#">View checklist »</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-3">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <img src="assets/images/checklist/lilongwe.jpeg" class="rounded-circle" width="140" height="140" />
 
         <h2 class="fw-normal">Lilongwe</h2>
         <p>This checklist consits of all recorded birds found in Lilongwe, Malawi.</p>
         <p><a class="btn btn-secondary" href="#">View checklist »</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-3">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
+<img src="assets/images/checklist/west-coast-sa.jpeg" class="rounded-circle" width="140" height="140" />
         <h2 class="fw-normal">West Coast</h2>
         <p>This checklist consits of all recorded birds found in the West Coast, South Africa.</p>
         <p><a class="btn btn-secondary" href="#">View checklist »</a></p>

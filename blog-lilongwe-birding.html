@@ -10,25 +10,41 @@
 
     <link rel="stylesheet" href="assets/css/navi.css">
     <link rel="stylesheet" href="assets/css/body.css">
-  </head>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/a0d1e1bf03.js" crossorigin="anonymous"></script>
+      </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navibar">
+    <nav class="navbar navbar-expand-lg navibar px-5 py-4">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
+    <a class="navbar-brand" href="https://www.facebook.com/Birdocs">
+    <i class="fa-brands fa-facebook fa-lg"></i>
     </a>
-    <a class="navbar-brand" href="index.html">Birdocs</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="https://www.instagram.com/eugenesbirdocs/">
+    <i class="fa-brands fa-instagram fa-lg"></i>
+    </a>
+    <a class="navbar-brand" href="https://www.youtube.com/c/birdocs"><i class="fa-brands fa-youtube fa-lg"></i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hamburger" aria-controls="hamburger" aria-expanded="false" aria-label="Toggle navigation" data-bs-auto-close="true">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="hamburger">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link active dropdown-toggle" aria-current="page" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="true">
             Blogs
           </a>
           <ul class="dropdown-menu">
