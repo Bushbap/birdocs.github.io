@@ -2,11 +2,6 @@ h1 {
   font-family: 'Lato', sans-serif;
 }
 
-
-.intro-land {
-  height: 920px;
-}
-
 @media (max-width:540px){
   .profile-pic {
     max-width: 350px;
