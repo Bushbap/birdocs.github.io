@@ -6,3 +6,24 @@
   font-family: 'Karla', sans-serif;
   font-size: 19px;
 }
+
+.navbar-toggler {
+  border: none;
+  color: black;
+  padding: 7px 9px;
+  }
+
+.dropdown-menu {
+  padding: 15px 20px;
+
+  }
+
+.dropdown-item:hover {
+  background: #FFD580;
+  border-radius: 25px;
+}
+
+.dropdown-item:focus {
+  background-color: #8B4000;
+  color: white;
+}
