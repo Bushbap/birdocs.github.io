@@ -27,3 +27,23 @@
   background-color: #8B4000;
   color: white;
 }
+
+.navbar-brand {
+  color: black;
+  padding-right: 15px;
+}
+
+.navbar-brand .fa-youtube:hover {
+  color: red;
+  transition: color 0.5s;
+}
+
+.navbar-brand .fa-facebook:hover {
+  color: blue;
+  transition: color 0.5s;
+}
+
+.navbar-brand .fa-instagram:hover {
+  color: purple;
+  transition: color 0.5s;
+}

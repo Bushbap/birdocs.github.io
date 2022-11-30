@@ -6,6 +6,7 @@ h1 {
   padding-top: 70px;
   height: 920px;
   align-content: center;
+
 }
 
 .intro-main-vid {
@@ -23,13 +24,16 @@ h1 {
   .intro-land {
     padding-top: 0;
     height: 820px;
+    margin-top: 0;
   }
 }
+
 
 @media (max-width:576px){
   .profile-pic {
     max-width: 250px;
     max-height: 250px;
+    margin-top: 0;
   }
 }
 
